@@ -1,6 +1,5 @@
 const express = require("express");
 require("./db/connection")
-// const Student = require("../models/students")
 const studentRoute = require("./routers/userRouter")
 
 const app = express();
